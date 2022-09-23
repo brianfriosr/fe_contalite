@@ -1,0 +1,9 @@
+.logo{
+    display:flex;
+    align-items:flex-start;
+    padding-top:30px; 
+}
+
+.logo h4{
+    padding-top: 35px;
+}
