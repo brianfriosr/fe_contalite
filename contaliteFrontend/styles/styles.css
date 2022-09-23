@@ -1,7 +1,7 @@
 .logo{
     display:flex;
     align-items:center;
-    padding-top:30px; 
+    padding:30 30px; 
 }
 
 .logo h4{
@@ -15,3 +15,14 @@
 button{
     margin: 20px 0px;
 }
+
+
+#tabla1{ 
+    border: 1px solid; 
+    width: 280px;
+    display:inline-table;
+} 
+
+#cuerpotab1{ 
+    padding: 4 4 4 4px;
+} 
