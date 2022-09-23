@@ -1,17 +1,17 @@
-footer {
-    display:flex; 
-    flex-direction:row;
-    justify-content:center;
-}
-
-.sedes{
+.logo{
     display:flex;
-    flex-direction:column;
-    justify-content: flex-start;
-    align-items:flex-start;
+    align-items:center;
+    padding-top:30px; 
 }
 
-.link-sedes {
-    display:flex; 
-    flex-direction:column;
+.logo h4{
+    padding-top: 35px;
+}
+
+.form-group{
+    padding: 5px;
+}
+
+button{
+    margin: 20px 0px;
 }
