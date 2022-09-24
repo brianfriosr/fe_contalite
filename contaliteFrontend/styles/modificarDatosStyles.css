@@ -1,0 +1,23 @@
+.logo{
+    display:flex;
+    align-items:flex-start;
+    padding-top:30px; 
+}
+
+.logo h4{
+    padding-top: 35px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.modificar-datos {
+    margin-top: 20px;
+}
+
+.logo h5{
+    padding-top: 35px;
+    margin-left: 100px;
+    text-align: center;    
+}
