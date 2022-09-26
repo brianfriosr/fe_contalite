@@ -17,7 +17,8 @@ button {
 }
 
 .logo h5{
-    padding-top: 35px;
-    margin-left: 100px;
-    text-align: center;    
+    border: 1px solid black;
+    margin: 40px 0px 40px 40px;
+    text-align: center;
+    padding: 5px;
 }
