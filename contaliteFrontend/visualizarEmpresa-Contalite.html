@@ -18,8 +18,24 @@
                     <img src="./assets/images/Logo-ABCCCC.jpeg" alt="Logo-ABCCCC" width="400" />
                     <h4>Asociaci&oacute;n Banca de Comercio - Compromiso, <br /> Confianza y Confidencialidad
                     </h4>
-                    <h5>Visualizar Empresa</h5>
+                    <h5>Ver Empresa <br>Empresa: tal <br>ID: xxxx</h5>
                 </div>
+            </div>
+
+            <div class="container">
+                <form>
+                    <div class="form-group">
+                        <label for="Buscar-nit">Buscar por Nit:</label>
+                        <input type="number" class="form-control" id="Buscar-nit" placeholder="Digitar el nit">
+                        <button type="submit" class="btn btn-outline-primary">Crear</button>
+                    </div>
+                </form>    
+            </div>
+
+            <div>
+                <h6>Crear Empresa</h6>
+                <button type="submit" class="btn btn-outline-success">Crear</button>
+
             </div>
 
             <div>
@@ -33,7 +49,7 @@
                             <th scope="col">Nombre de la Empresa</th>
                             <th scope="col">Sector Productivo</th>
                             <th scope="col">Ciudad</th>
-                            <th scope="col">Tel&eacute;fono</th>
+                            <th scope="col">Opci&oacute;n</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,6 +62,10 @@
                             <td>Textil</td>
                             <td>Bogotá</td>
                             <td>6011234567</td>
+                            <td>
+                                <button type="submit" class="btn btn-outline-info btn-sm">Editar</button>
+                                <button type="submit" class="btn btn-outline-danger btn-sm">Eliminar</button>   
+                            </td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -55,7 +75,10 @@
                             <td>Busos LTDA</td>
                             <td>Textil</td>
                             <td>Bogotá</td>
-                            <td>6017894456</td>
+                            <td>6017894456</td><td>
+                                <button type="submit" class="btn btn-outline-info btn-sm">Editar</button>
+                                <button type="submit" class="btn btn-outline-danger btn-sm">Eliminar</button>    
+                            </td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -65,11 +88,14 @@
                             <td>Chaquetas S.A.S</td>
                             <td>Textil</td>
                             <td>Medellín</td>
-                            <td>6043216549</td>
+                            <td>6043216549</td><td>
+                                <button type="submit" class="btn btn-outline-info btn-sm">Editar</button>
+                                <button type="submit" class="btn btn-outline-danger btn-sm">Eliminar</button>   
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-                <button type="submit" class="btn btn-secondary">Volver</button>
+                <button type="submit" class="btn btn-warning">Volver</button>
             </div>
         </div>
     </section>
